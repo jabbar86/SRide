@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
 app.post('/getWeather', async (req, res) => {
 
     //************ Getting Current Day */
-    let currentDay = new Date().getDay();
+    let currentDay = new Date().getDate();
     console.log("Current Day \n", currentDay);
 
     //********* Checking if Number is Prime or Not */
